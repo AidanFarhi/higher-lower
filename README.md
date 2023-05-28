@@ -34,7 +34,7 @@ function main():
         GET lower_bound and upper_bound from standard input
         SET lower_bound and upper_bound to values received from standard input
         IF lower_bound is greater than upper_bound THEN:
-            PRINT 'Lower bound must less than the upper bound.'
+            PRINT 'The lower bound must less than the upper bound.'
         ELSE:
             SET bounds_are_valid to True
         END IF
