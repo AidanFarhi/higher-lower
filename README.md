@@ -41,7 +41,7 @@ function main():
     END WHILE
     SET target_num to a random number between lower_bound and upper_bound
     WHILE user_has_won is False:
-        INIIALIZE message to None
+        INITIALIZE message to None
         GET user_guess from standard input
         SET user_guess to value received from standard input
         CALL checkGuess(user_guess, target_num, upper_bound, lower_bound)
